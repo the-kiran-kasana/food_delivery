@@ -24,9 +24,10 @@
           const response = await fetch('/api/data');
           console.log(response);
           const data = await response.json();
-          //console.log(data);
+          
         } catch (error) {
           console.error(error);
+          console.log("hello mern");
         }
       }
       fetchData();

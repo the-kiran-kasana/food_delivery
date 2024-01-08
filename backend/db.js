@@ -7,6 +7,7 @@
  await mongoose.connect(mongoURL,()=>{
     serverSelectionTimeoutMS: 8080
     console.log("connected successfully");
+    console.log("hello mern stack");
   });
  }
 
