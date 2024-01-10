@@ -17,20 +17,5 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-
-    <script>
-      async function fetchData() {
-        try {
-          const response = await fetch('/api/data');
-          console.log(response);
-          const data = await response.json();
-          
-        } catch (error) {
-          console.error(error);
-          console.log("hello mern");
-        }
-      }
-      fetchData();
-    </script>
   </body>
 </html>
