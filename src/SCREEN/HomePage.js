@@ -34,14 +34,14 @@ export default function HomePage() {
       <div><NavigationBar /></div>
       <div><CarouselSlide /></div>
       <div><Card /></div>
-      {/* <div>
+      {<div>
         <h1>Food Items</h1>
         <ul>
           {foods.map((food) => (
             <li key={food._id}>{`${food.name} - ${food.prize}`}</li>
           ))}
         </ul>
-      </div> */}
+      </div> }
       <div><Footer /></div>
     </div>
   );
