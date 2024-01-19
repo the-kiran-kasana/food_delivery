@@ -5,28 +5,28 @@ import CarouselSlide from '../components/CarouselSlide';
 import Footer from '../components/Footer';
 
 export default function HomePage() {
-  // const [foods, setFoods] = useState([]);
+  const [foods, setFoods] = useState([]);
 
-  // useEffect(() => {
+  useEffect(() => {
     
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch('/api/foods');
-  //       const data = await response.json();
-  //       setFoods(data);
-  //       console.log("print data" , response);
-  //     } catch (error) {
-  //       console.error('Error fetching data:', error);
+    const fetchData = async () => {
+      try {
+        const response = await fetch('/api/foods');
+        const data = await response.json();
+        setFoods(data);
+        console.log("print data" , response);
+      } catch (error) {
+        console.error('Error fetching data:', error);
   
 
-  //       if (error.response) {
-  //         console.error('Response data:', error.response.data);
-  //       }
-  //     }
-  //   };
+        if (error.response) {
+          console.error('Response data:', error.response.data);
+        }
+      }
+    };
   
-  //   fetchData();
-  // }, []);
+    fetchData();
+  }, []);
   
 
   return (
