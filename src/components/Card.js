@@ -8,6 +8,10 @@ export default function Card() {
         style={{ width: "18rem", maxHeight: "360pdx" }}
       >
         <img src="https://c.ndtvimg.com/2019-08/tfddu9ao_pasta_625x300_13_August_19.jpg?downsize=320:197" className="card-img-top" alt="..." />
+
+
+        <img src="/image/firstimg.png"/>
+
         <div className="card-body">
           <h5 className="card-title">  Pasta</h5>
           <div className="container w-100">
