@@ -57,6 +57,18 @@ export default function NavigationBar() {
   >
     search
   </button>
+
+
+       <li className="nav-item">
+          <Link className="navbar-brand fs-0" aria-current="page" to="/HomePage">
+            Login
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link className="navbar-brand fs-0" aria-current="page" to="/HomePage">
+            Sign In
+          </Link>
+        </li>
 </div>
 
 
